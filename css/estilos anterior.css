@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,800&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Glory', sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Antic Didone", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+header {
+    padding: 12px 70px;
+
+    .logos {
+        display: inline-block;
+        width: 49%;
+
+        a {
+            vertical-align: middle;
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+        }
+
+        i {
+            font-size: 1.5rem;
+        }
+    }
+
+    nav {
+        display: inline-block;
+        width: 50%;
+
+        ul {
+            list-style: none;
+            text-align: right;
+
+            li {
+                display: inline-block;
+                margin-right: 6px;
+
+                a {
+                    font-size: 1.25rem;
+                }
+            }
+
+        }
+    }
+
+}
+
+
+main {
+
+    .seccionTitulo {
+        padding-top: 25vh;
+        line-height: 1.5;
+        background-image: url(../assets/img/portada.png);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 50vh;
+        margin-bottom: 60px;
+
+        .boxTituloPrincipal {
+            background-color: #c3ae94;
+            opacity: 0.8;
+            padding: 12px 30px 12px 72px;
+            width: fit-content;
+            border-radius: 0px 10px 10px 0px;
+            text-align: center;
+
+            .tituloPrincipal {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.5rem;
+            }
+
+            .linkProductosIndex {
+                /* width: auto; */
+                border: 1px solid black;
+                border-radius: 10px;
+                padding: 6px 12px;
+                background-color: #ae9169;
+                border-color: #9a7b4f;
+            }
+        }
+    }
+
+    .info-compra {
+        padding: 0 60px;
+        margin-bottom: 60px;
+        text-align: center;
+
+        .info-fila {
+            display: inline-block;
+            width: 30%;
+            margin: 0 6px;
+
+            p {
+                letter-spacing: 1px;
+            }
+        }
+    }
+
+    .divisor {
+        width: 160px;
+        margin: 12px auto;
+    }
+
+    .seccionTarjeta {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 60px;
+
+        .productos {
+
+            .categoria-producto {
+                display: inline-block;
+                margin: 0 6px;
+
+                .imgtarjeta {
+                    width: 242px;
+                    height: 328px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+
+    .video {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .info-ubicacion {
+        margin: auto;
+        width: 70%;
+        margin-bottom: 60px;
+        text-align: center;
+
+        .contacto {
+            display: inline-block;
+
+            .formulario {
+                text-align: start;
+
+                label,
+                input {
+                    display: block;
+                }
+
+                .recuadro {
+                    border: none;
+                    background-color: #BAA38440;
+                    height: 36px;
+                    text-align: start;
+                    border-radius: 10px;
+                    padding: 6px 12px;
+                    margin: 5px;
+                    width: 500px;
+                }
+
+                textarea.recuadro {
+                    height: auto;
+                    resize: none;
+                }
+
+                .boton {
+                    border: 1px solid black;
+                    background-color: white;
+                    height: 30px;
+                    margin-left: auto;
+                    border-radius: 10px;
+                    padding: 6px 24px;
+                    margin: 5px;
+                    display: block;
+                }
+            }
+        }
+
+        .donde-estamos {
+            display: inline-block;
+
+            .info-direccion {
+
+                p {
+                    padding: 12px;
+                }
+
+            }
+        }
+
+
+    }
+
+    .tips {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 60px;
+
+        .videos {
+            text-align: center;
+
+            video {
+                display: inline-block;
+                margin: 36px 12px;
+                width: 290px;
+            }
+        }
+    }
+
+    .productos {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 60px;
+
+        .categoria {
+            margin-bottom: 36px;
+
+            h3 {
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 30px;
+                padding: 6px 24px;
+                background-color: #BAA384;
+                border-radius: 10px;
+                width: fit-content;
+                margin-bottom: 30px;
+            }
+
+            .producto {
+                display: inline-block;
+                margin: 0 12px;
+
+                img {
+                    width: 290px;
+                    height: 336px;
+                    ;
+                    object-fit: cover;
+                    margin-bottom: 12px;
+                }
+
+                h4 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.tituloSeccionTarjetas {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+footer {
+    padding: 12px 70px;
+
+    .footer-izq {
+        display: inline-block;
+        width: 49%;
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+        }
+
+        .footer-nav {
+            display: inline-block;
+
+            ul {
+                display: inline-block;
+                list-style: none;
+            }
+        }
+    }
+
+    .suscribite {
+        display: inline-block;
+        width: 50%;
+
+        h4 {
+            margin-bottom: 12px;
+        }
+
+        form {
+            margin-bottom: 12px;
+
+            .recuadro {
+                display: block;
+                border: none;
+                background-color: #BAA38440;
+                text-align: start;
+                border-radius: 10px;
+                padding: 6px 12px;
+                height: 36px;
+                width: 100%;
+                margin-bottom: 12px;
+            }
+
+            .boton {
+                display: block;
+                border: 1px solid black;
+                background-color: white;
+                height: 30px;
+                text-align: start;
+                border-radius: 10px;
+                padding: 6px 24px;
+                margin-left: auto;
+            }
+
+        }
+
+        .logos {
+            text-align: end;
+            a {
+                display: inline-block;
+                margin-left: 18px;
+            }
+
+            i {
+                font-size: 1.5rem;
+            }
+        }
+
+
+
+    }
+
+}
+
+
+.nuestrahistoria {
+    margin-top: 36px;
+    margin: auto;
+    width: 90%;
+
+    .texto-nosotros {
+        display: inline-block;
+        font-size: 1.25rem;
+        width: 50%;
+        margin-right: 60px;
+
+        div {
+            margin-bottom: 12px;
+        }
+
+        div:first-of-type {
+            margin-top: 12px;
+        }
+    }
+
+    .imgnosotros {
+        display: inline-block;
+        width: 496px;
+        height: 565px;
+        object-fit: cover;
+    }
+}
