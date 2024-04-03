@@ -1,0 +1,35 @@
+a {
+    color: unset;
+    text-decoration: unset;
+
+    &:hover {
+        color: unset;
+    }
+}
+
+// se usa en todas las paginas con la navegacion
+ul {
+    list-style: none;
+}
+
+//se utiliza en index y en la pagina productos
+.img-producto {
+    height: 328px;
+    width: 240px;
+    object-fit: cover;
+}
+
+// se utiliza en index y en la pagina contacto
+.mapa {
+    width: 100%;
+    height: 150px;
+
+    @media (min-width: 768px) {
+        height: 300px;
+    }
+
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}

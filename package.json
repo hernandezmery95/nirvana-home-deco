@@ -1,0 +1,14 @@
+{
+  "name": "proyecto_final",
+  "version": "1.0.0",
+  "description": "Proyecto Nirvana home Deco",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maria",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.72.0"
+  }
+}
