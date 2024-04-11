@@ -23,8 +23,8 @@ ul {
 }
 
 .img-producto {
-  height: 328px;
-  width: 240px;
+  height: 500px;
+  width: 300px;
   object-fit: cover;
 }
 
@@ -82,7 +82,7 @@ ul {
   font-size: 24px;
 }
 .gift img {
-  width: 300px;
+  width: 400px;
   height: auto;
   object-fit: cover;
   animation-name: flotar;
