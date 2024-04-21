@@ -1,12 +1,18 @@
 a {
     color: unset;
     text-decoration: unset;
-
-    &:hover {
+    font-size: larger;
+    &:hover{
         color: unset;
+        
     }
 }
-
+p{
+    font-size: larger;
+}
+b{
+    font-size: larger;
+}
 // se usa en todas las paginas con la navegacion
 ul {
     list-style: none;

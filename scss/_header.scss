@@ -1,3 +1,15 @@
 .bgnavegacion {
     background-color: white;
 }
+.nav-link {
+    @media (min-width: 768px){
+        transition: border 0.3s;
+        border: 1px solid transparent;
+        border-radius: 10px;
+    
+        &:hover {
+            border: 1px solid black;        
+        }
+    }
+    
+}
